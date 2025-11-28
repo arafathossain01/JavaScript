@@ -48,3 +48,31 @@ let x = 10;
 let x = 1234567890123456789012345n;
 let y = BigInt(1234567890123456789012345)
 ```
+
+## Loops
+### For loop
+```js
+for(let i=0; i<10; i++){
+    // some code
+}
+``` 
+- using for loop when know the iteration time.
+### While loop
+```js
+while(condition){
+    //some code
+    i++;
+}
+```
+- using while loop when don't know the iteration time.
+### do while loop
+```js
+do{
+    // some code
+}
+while(condition);
+```
+- using when condition is false but the loop work one time.
+
+## break & continue
+- break jumps out of loop and continue skip the current iteration.
