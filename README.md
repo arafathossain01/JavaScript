@@ -76,3 +76,9 @@ while(condition);
 
 ## break & continue
 - break jumps out of loop and continue skip the current iteration.
+
+## String
+- good practice to write string <b>tamplate string / template literals</b>
+```js
+let text = `She's name was something.`
+```

@@ -12,6 +12,9 @@ let x = 5;
 let y = x ** 2; // exponentiation
 console.log(y);
 
+let text = `He was a "Good" poet.`;
+console.log(text);
+
 
 
 
