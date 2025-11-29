@@ -110,13 +110,102 @@ let text = `She's name was something.`;
 
 ### String methods
 
+```js
+let str = `Arafat Hossain`;
+```
+
 <table border="1">
     <tr>
         <th>Method</th>
         <th>Description</th>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
+        <td>str.length</td>
+        <td>স্ট্রিং এর দৈর্ঘ্য বের করা।</td>
+    </tr>
+    <tr>
+      <td>str.charAt(2)</td>
+      <td>নির্দিষ্ট index এর character পাওয়া।</td>
+    </tr>
+    <tr>
+      <td>str.charCodeAt(0)</td>
+      <td>ASCII/Unicode value পাওয়া।</td>
+    </tr>
+    <tr>
+      <td>str.slice(2, 5)</td>
+      <td>স্ট্রিং থেকে নির্দিষ্ট অংশ কেটে নেওয়া</td>
+    </tr>
+    <tr>
+      <td>str.substring(2, 5)</td>
+      <td>slice এর মতো (negative index নেয় না)।</td>
+    </tr>
+    <tr>
+      <td>str.toUpperCase()</td>
+      <td>uppercase এ convert করা</td>
+    </tr>
+    <tr>
+      <td>str.toLowerCase()</td>
+      <td>lowercase এ convert</td>
+    </tr>
+    <tr>
+      <td>str.trim()</td>
+      <td>user input এর unnecessary space রিমুভ করা</td>
+    </tr>
+    <tr>
+      <td>str.trimStart()
+          str.trimEnd()</td>
+      <td>বিশেষ ক্ষেত্রে leading বা trailing space রিমুভ।</td>
+    </tr>
+    <tr>
+      <td>str.includes("hello")</td>
+      <td>কিছু আছে কিনা চেক (search, filtering, validation)।</td>
+    </tr>
+    <tr>
+      <td>str.startsWith("http")</td>
+      <td>URL validation, security checks, file type detect ইত্যাদি।</td>
+    </tr>
+    <tr>
+      <td>str.endsWith(".png")</td>
+      <td>file validation, extension check।</td>
+    </tr>
+    <tr>
+      <td>str.indexOf("a")</td>
+      <td>স্ট্রিং এর ভিতর কোনো substring প্রথম কোথায় আছে।</td>
+    </tr>
+    <tr>
+      <td>str.lastIndexOf("a")</td>
+      <td>substring এর শেষ occurrence.</td>
+    </tr>
+    <tr>
+      <td>str.search(/hello/i)</td>
+      <td>regex দিয়ে search করার জন্য best।</td>
+    </tr>
+    <tr>
+      <td>str.match(/[0-9]+/g)</td>
+      <td>regex match করা — form validation এ খুব ব্যবহার হয়।</td>
+    </tr>
+    <tr>
+      <td>str.replace("hello", "hi")</td>
+      <td>search করে replace.</td>
+    </tr>
+    <tr>
+      <td>str.split(",")</td>
+      <td>স্ট্রিংকে ভাগ করে অ্যারে বানিয়ে ফেলে</td>
+    </tr>
+    <tr>
+      <td>"*".repeat(5)</td>
+      <td>pattern জেনারেশনে useful।</td>
+    </tr>
+    <tr>
+      <td>"5".padStart(2, "0")</td>
+      <td>শুরুতে (বাম পাশে) extra character যোগ করে স্ট্রিংকে নির্দিষ্ট দৈর্ঘ্যের বানায়।</td>
+    </tr>
+    <tr>
+      <td>"5".padEnd(4, "*")</td>
+      <td>শেষে (ডান পাশে) extra character যোগ করে স্ট্রিংকে নির্দিষ্ট দৈর্ঘ্যের বানায়।</td>
+    </tr>
+    <tr>
+      <td>toString()</td>
+      <td>make string of any value.</td>
     </tr>
 </table>
