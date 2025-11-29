@@ -209,3 +209,5 @@ let str = `Arafat Hossain`;
       <td>make string of any value.</td>
     </tr>
 </table>
+
+- Comparing two JavaScript objects always returns false.
