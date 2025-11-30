@@ -211,3 +211,5 @@ let str = `Arafat Hossain`;
 </table>
 
 - Comparing two JavaScript objects always returns false.
+
+## Function
