@@ -213,3 +213,21 @@ let str = `Arafat Hossain`;
 - Comparing two JavaScript objects always returns false.
 
 ## Function
+- ceating a function
+```js
+  function add (a,b){
+    let sum = a + b;
+    return sum;
+  }
+  let a = 10, b =10;
+  let result = add(a,b); // invoked function
+```
+
+### Parameters & Arguments
+```js
+  function function_name(parameter, parameter){
+    //code
+  }
+  function_name(argument, argument);
+  ```
+  
