@@ -213,21 +213,42 @@ let str = `Arafat Hossain`;
 - Comparing two JavaScript objects always returns false.
 
 ## Function
-- ceating a function
+
+- creating a function
+
 ```js
-  function add (a,b){
-    let sum = a + b;
-    return sum;
-  }
-  let a = 10, b =10;
-  let result = add(a,b); // invoked function
+function add(a, b) {
+  let sum = a + b;
+  return sum;
+}
+let a = 10,
+  b = 10;
+let result = add(a, b); // invoked function
 ```
 
 ### Parameters & Arguments
+
 ```js
-  function function_name(parameter, parameter){
-    //code
-  }
-  function_name(argument, argument);
-  ```
-  
+function function_name(parameter, parameter) {
+  //code
+}
+function_name(argument, argument);
+```
+
+### rest parameter
+
+```js
+function sum(...args) {}
+```
+
+it can hold many arguments and convert it to array.
+
+```js
+function addar(num1, num2){
+  let sum = num1 + num2;
+  return sum;
+}
+
+let result = addar(10,20);
+```
+- If we can hold a function in a variable must be have a return value of those function.
