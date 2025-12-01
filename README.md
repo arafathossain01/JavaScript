@@ -251,4 +251,4 @@ function addar(num1, num2){
 
 let result = addar(10,20);
 ```
-- If we can hold a function in a variable must be have a return value of those function.
+- If we want to hold a function in a variable must be have a return value of those function.
