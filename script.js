@@ -1,7 +1,9 @@
 // work with innerHTML
 function clicikfun() {
   document.getElementById("demo").innerHTML = 
-  "<b>Pro developer!</b>";
+  `<b>Good programmer <br>
+  better programmer <br>
+  pro programmer</b>`;
 }
 
 // work with innerText
