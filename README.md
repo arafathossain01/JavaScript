@@ -252,3 +252,22 @@ function addar(num1, num2){
 let result = addar(10,20);
 ```
 - If we want to hold a function in a variable must be have a return value of those function.
+
+### var function scope
+```js
+function sayhello(){
+  var fname = 'arfu';
+  consol.log(fname);
+}
+sayhello();
+consol.log(`hello ${fname}`);
+```
+### Accidental Global Variable
+```js
+function sayhello(){
+  fname = 'arfu';
+  consol.log(fname);
+}
+sayhello();
+consol.log(`hello ${fname}`); // will work
+```
