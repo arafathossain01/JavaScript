@@ -275,3 +275,16 @@ function sayhello() {
 sayhello();
 consol.log(`hello ${fname}`); // will work
 ```
+
+### Anonymous function
+```js
+function (){
+  consol.log("Hello World");
+}
+```
+There is no name of function, this is called anonymous function. also write it like this->
+```js
+let print = function (){
+  consol.log("Hello World");
+}
+```
