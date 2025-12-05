@@ -235,13 +235,13 @@ function function_name(parameter, parameter) {
 function_name(argument, argument);
 ```
 
-### rest parameter
+### Rest Parameter
 
 ```js
 function sum(...args) {}
 ```
 
-it can hold many arguments and convert it to array.
+it can hold many arguments and convert to array. we can't take any parameter after rest parameter
 
 ```js
 function addar(num1, num2) {
@@ -282,9 +282,20 @@ function (){
   consol.log("Hello World");
 }
 ```
-There is no name of function, this is called anonymous function. also write it like this->
+- There is no name of function, this is called anonymous function. also write it like this->
 ```js
 let print = function (){
   consol.log("Hello World");
 }
+```
+
+### Function expression
+- A function expression is a function assigned in a variable. It's also an anonymous function cause no function name.
+```js
+let sumation = function (num1, num2){
+  let result = num1 + num2;
+  return result;
+};
+
+let show = sumation (10,20);
 ```

@@ -15,11 +15,6 @@ console.log(y);
 let text = `He was a "Good" poet.`;
 console.log(text);
 
-
-
-// interview question
-console.log(0.1 + 0.2 === 0.3); // false. 0.1 + 0.2 = 0.30000000000000004
-
 let a = "25";
 let b = "234.32px";
 console.log(Number(a));
@@ -31,4 +26,15 @@ console.log((12.32).toPrecision(3)); // to define total digit
 let random = Math.random()*100;
 random = Number(random.toFixed(0)); // Number() function convert the string 
 console.log(random);
+
+// sum of array element
+let arr = [1,2,3,4,5,6,7,8,9];
+let sum = 0;
+for(let i=0; i<arr.length; i++){
+    sum = sum + arr[i];
+}
+console.log(sum);
+
+
+
 
