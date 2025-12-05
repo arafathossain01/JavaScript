@@ -214,7 +214,7 @@ let str = `Arafat Hossain`;
 
 ## Function
 
-- function is a reusable block of code that complete a particular task.
+- Function is a reusable block of code that complete a particular task.
 
 ### Function Creation
 ```js
