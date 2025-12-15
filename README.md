@@ -214,7 +214,7 @@ let str = `Arafat Hossain`;
 
 ## Function
 
-- function is a reusable block of code that complete a particular task.
+- Function is a reusable block of code that complete a particular task.
 
 ### Function Creation
 ```js
@@ -260,10 +260,10 @@ let result = addar(10, 20);
 ```js
 function sayhello() {
   var fname = "arfu";
-  consol.log(fname);
+  console.log(fname);
 }
 sayhello();
-consol.log(`hello ${fname}`);
+console.log(`hello ${fname}`);
 ```
 
 ### Accidental Global Variable
@@ -271,31 +271,31 @@ consol.log(`hello ${fname}`);
 ```js
 function sayhello() {
   fname = "arfu";
-  consol.log(fname);
+  console.log(fname);
 }
 sayhello();
-consol.log(`hello ${fname}`); // will work
+console.log(`hello ${fname}`); // will work
 ```
 
 ### Anonymous function
 
 ```js
 function (){
-  consol.log("Hello World");
+  console.log("Hello World");
 }
 ```
 
-- There is no name of function, this is called anonymous function. also write it like this->
+- Anonymous functions are functions without a name. also write it like this->
 
 ```js
 let print = function () {
-  consol.log("Hello World");
+  console.log("Hello World");
 };
 ```
 
 ### Function expression
 
-- A function expression is a function assigned in a variable. It's also an anonymous function cause no function name.
+- A function expression is a function assigned in a variable. It's also an anonymous function cause no function name. This function is always invoked using the variable name. A function expression end must be a semicolon.
 
 ```js
 let sumation = function (num1, num2) {
@@ -305,3 +305,19 @@ let sumation = function (num1, num2) {
 
 let show = sumation(10, 20);
 ```
+- Function expressions are commonly used to create anonymous functions.
+```js
+let sum = add (10,20); // will error
+let add = function (a,b){
+  return a+b;
+};
+```
+- function expressions are not hoisted.
+### Arrow Function
+- It's a shortcut of a function.
+```js
+let hello = () => {
+  console.log('Hello World');
+}
+```
+- This works only if the function has only one statement.
