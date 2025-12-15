@@ -35,6 +35,8 @@ for(let i=0; i<arr.length; i++){
 }
 console.log(sum);
 
-
+// Arrow function
+let print = () => {console.log("Hello World!")};
+print();
 
 
