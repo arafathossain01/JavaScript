@@ -316,8 +316,6 @@ let add = function (a,b){
 ### Arrow Function
 - It's a shortcut of a function.
 ```js
-let hello = () => {
-  console.log('Hello World');
-}
+let hello = () => console.log('Hello World');
 ```
 - This works only if the function has only one statement.
