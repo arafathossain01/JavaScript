@@ -242,7 +242,7 @@ function_name(argument, argument);
 function sum(...args) {}
 ```
 
-it can hold many arguments and convert to array. we can't take any parameter after rest parameter
+it can hold many arguments and convert to array. JS can't take any parameter after rest parameter
 
 ```js
 function addar(num1, num2) {
