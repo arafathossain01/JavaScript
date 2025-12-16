@@ -321,3 +321,17 @@ let hello = () => console.log('Hello World');
 - This works only if the function has only one statement.
 
 ## Object
+- An object is a variable that can hold many variables. Objects are collection of Key-Value.
+```js
+const car = {
+  brand: 'Toyota',
+  Name: 'Allion',
+  Model: 2013,
+
+  owner: function(){
+    return this.firstName+' '+this.lastName;
+  }
+};
+car.brand // access object
+```
+- Here brand is a key and Toyota is a value. This key-value pair is called boject property.
