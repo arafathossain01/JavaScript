@@ -327,6 +327,8 @@ const car = {
   brand: 'Toyota',
   Name: 'Allion',
   Model: 2013,
+  firstName: 'Arafat',
+  lastName: 'Hossain',
 
   owner: function(){
     return this.firstName+' '+this.lastName;
@@ -335,3 +337,6 @@ const car = {
 car.brand // access object
 ```
 - Here brand is a key and Toyota is a value. This key-value pair is called boject property.
+- Why use this?
+- car একটি object এবং owner হচ্ছে তার একটি method।
+firstName এবং lastName হলো car object-এর property, এগুলো global বা local variable নয়। তাই method-এর ভিতর থেকে এই property গুলো access করতে হলে this.propertyName ব্যবহার করতে হয়। যখন owner() method-টা car.owner() দিয়ে call করা হয়, তখন this keyword car object-কেই refer করে। 
