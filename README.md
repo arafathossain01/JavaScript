@@ -211,7 +211,11 @@ let str = `Arafat Hossain`;
 </table>
 
 - Comparing two JavaScript objects always returns false.
-
+### String literals
+```js
+let counrty = 'Bangladesh';
+let myself = `My country name is ${country}`;
+```
 ## Function
 
 - Function is a reusable block of code that complete a particular task.
