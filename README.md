@@ -62,7 +62,25 @@ let x = 10;
 let x = 1234567890123456789012345n;
 let y = BigInt(1234567890123456789012345);
 ```
+## Type Conversion
 
+- String to Number
+  ```js
+  Number();
+  NaN ();
+  ```
+- Number to String
+  ```js
+    String();
+  toString();
+  ```
+- Dates to Number
+  ```js
+    d = new Date();
+    Number(d) ; // return number
+  d = new Date();
+  d.getTime() ; // return Number
+  ```
 ## Loops
 
 ### For loop
